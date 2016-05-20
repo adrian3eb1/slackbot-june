@@ -1,6 +1,5 @@
-module.exports = (robot) ->
-
-bot.hear(/Hello!!/, function(res) {
-   return res.send("Hi there!");
- });
-
+module.exports = function(robot) {
+	robot.hear(/Hello!/, function(res) {
+	   return res.send("Hi there!");
+	 });
+}
