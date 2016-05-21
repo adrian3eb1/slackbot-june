@@ -4,7 +4,3 @@ module.exports = function(robot) {
 	   return res.send("Hi there!");
 	 });
 }
-
-robot.hear(/hello june/i, function(res) {
-    return res.emote("Hello, how's it going");
-  });
