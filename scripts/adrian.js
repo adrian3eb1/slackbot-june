@@ -7,7 +7,7 @@ module.exports = function(robot) {
 
 module.exports = function(robot) {
   robot.hear(/Help!/, function(res) {
-     return res.send("How can I assit you?!");
+     return res.send("What seems to be the problem?!");
    });
 }
 
