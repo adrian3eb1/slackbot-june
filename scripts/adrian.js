@@ -5,6 +5,13 @@ module.exports = function(robot) {
 	 });
 }
 
+module.exports = function(robot) {
+  robot.hear(/Help!/, function(res) {
+     return res.send("How can I assit you?!");
+   });
+}
+
+
 var uhh_what;
 
 uhh_what = ["I could tell you, but then I'd have to kill you", "Answering that would be a matter of national security", "You can't possibly compare them!", "Both hold a special place in my heart"];
